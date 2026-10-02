@@ -1,0 +1,17 @@
+{
+ "model_display": "Kanana-1.5-8B",
+ "model_file": "kanana-1.5-8b-Q4_K_M.gguf",
+ "model_family": "kanana",
+ "size_band": "8B",
+ "model_sha256": "64b2a29e34f55276b1f6a7cf6947451b537c65786c82aad454c327b22167c42c",
+ "size_bytes": 4920765376,
+ "quantization": "Q4_K_M",
+ "context_per_slot": 24576,
+ "slots": 2,
+ "max_tokens": 512,
+ "temperature": 0.0,
+ "seed": 1234,
+ "runtime": "llama.cpp",
+ "build_commit": "0bec16e3880a148a7fc3887cdf71f81c547aff7a",
+ "load_seconds": 4.0
+}

@@ -1,0 +1,17 @@
+{
+ "model_display": "Gemma-3-4B",
+ "model_file": "gemma-3-4b-it-Q4_K_M.gguf",
+ "model_family": "gemma3",
+ "size_band": "4B",
+ "model_sha256": "882e8d2db44dc554fb0ea5077cb7e4bc49e7342a1f0da57901c0802ea21a0863",
+ "size_bytes": 2489757856,
+ "quantization": "Q4_K_M",
+ "context_per_slot": 24576,
+ "slots": 3,
+ "max_tokens": 512,
+ "temperature": 0.0,
+ "seed": 1234,
+ "runtime": "llama.cpp",
+ "build_commit": "0bec16e3880a148a7fc3887cdf71f81c547aff7a",
+ "load_seconds": 4.01
+}

@@ -1,0 +1,17 @@
+{
+ "model_display": "Qwen3-1.7B",
+ "model_file": "Qwen3-1.7B-Q4_K_M.gguf",
+ "model_family": "qwen3",
+ "size_band": "2B",
+ "model_sha256": "e851e1a92b11f41d962349dd995c2dd6a94fa01eb3facf70791c25b448bf3974",
+ "size_bytes": 1282438976,
+ "quantization": "Q4_K_M",
+ "context_per_slot": 24576,
+ "slots": 4,
+ "max_tokens": 4096,
+ "temperature": 0.0,
+ "seed": 1234,
+ "runtime": "llama.cpp",
+ "build_commit": "0bec16e3880a148a7fc3887cdf71f81c547aff7a",
+ "load_seconds": 2.01
+}

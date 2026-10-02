@@ -1,0 +1,71 @@
+{
+ "settings": {
+  "machine": "workstation (Xeon, CPU only)",
+  "ctx": 24576,
+  "threads": 12,
+  "ngl": 0,
+  "max_tokens": 512
+ },
+ "models": {
+  "Kanana-1.5-8B": {
+   "total_p50": 29.153,
+   "total_p95": 54.552,
+   "ttft_p50": 16.51,
+   "tok_per_s_median": 9.12
+  },
+  "Qwen3-4B": {
+   "total_p50": 15.226,
+   "total_p95": 33.804,
+   "ttft_p50": 10.802,
+   "tok_per_s_median": 12.69
+  },
+  "Qwen3-8B": {
+   "total_p50": 26.406,
+   "total_p95": 46.15,
+   "ttft_p50": 18.273,
+   "tok_per_s_median": 8.62
+  },
+  "Llama-3.1-8B": {
+   "total_p50": 21.829,
+   "total_p95": 34.536,
+   "ttft_p50": 16.576,
+   "tok_per_s_median": 9.32
+  },
+  "Gemma-3-1B": {
+   "total_p50": 7.534,
+   "total_p95": 17.984,
+   "ttft_p50": 3.374,
+   "tok_per_s_median": 34.93
+  },
+  "Qwen3-1.7B": {
+   "total_p50": 8.061,
+   "total_p95": 15.21,
+   "ttft_p50": 4.391,
+   "tok_per_s_median": 24.68
+  },
+  "Kanana-1.5-2.1B": {
+   "total_p50": 12.309,
+   "total_p95": 26.651,
+   "ttft_p50": 5.679,
+   "tok_per_s_median": 19.96
+  },
+  "Gemma-3-4B": {
+   "total_p50": 12.256,
+   "total_p95": 25.974,
+   "ttft_p50": 8.669,
+   "tok_per_s_median": 15.05
+  },
+  "Midm-2.0-Mini": {
+   "total_p50": 6.145,
+   "total_p95": 13.194,
+   "ttft_p50": 5.528,
+   "tok_per_s_median": 17.76
+  },
+  "Qwen3-14B": {
+   "total_p50": 47.811,
+   "total_p95": 84.778,
+   "ttft_p50": 33.447,
+   "tok_per_s_median": 5.45
+  }
+ }
+}

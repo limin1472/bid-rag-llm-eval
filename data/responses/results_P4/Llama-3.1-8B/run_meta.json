@@ -1,0 +1,17 @@
+{
+ "model_display": "Llama-3.1-8B",
+ "model_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+ "model_family": "llama",
+ "size_band": "8B",
+ "model_sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+ "size_bytes": 4920739232,
+ "quantization": "Q4_K_M",
+ "context_per_slot": 24576,
+ "slots": 2,
+ "max_tokens": 512,
+ "temperature": 0.0,
+ "seed": 1234,
+ "runtime": "llama.cpp",
+ "build_commit": "0bec16e3880a148a7fc3887cdf71f81c547aff7a",
+ "load_seconds": 4.0
+}

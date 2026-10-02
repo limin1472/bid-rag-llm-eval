@@ -1,0 +1,109 @@
+{
+ "gate": {
+  "ram_gb_max": 10.0,
+  "passed": [
+   "Qwen3-1.7B",
+   "Qwen3-8B",
+   "Gemma-3-4B",
+   "Midm-2.0-Mini",
+   "Qwen3-4B",
+   "Llama-3.1-8B",
+   "Gemma-3-1B",
+   "Kanana-1.5-8B",
+   "Kanana-1.5-2.1B"
+  ],
+  "failed": {
+   "Qwen3-14B": 14.81
+  }
+ },
+ "metric_rank": {
+  "정답 안정도": {
+   "Qwen3-8B": 1,
+   "Llama-3.1-8B": 2,
+   "Qwen3-4B": 3,
+   "Kanana-1.5-8B": 4,
+   "Gemma-3-4B": 5,
+   "Kanana-1.5-2.1B": 6,
+   "Qwen3-1.7B": 7,
+   "Midm-2.0-Mini": 8,
+   "Gemma-3-1B": 9
+  },
+  "환각률": {
+   "Qwen3-8B": 1,
+   "Gemma-3-4B": 2,
+   "Llama-3.1-8B": 3,
+   "Qwen3-4B": 4,
+   "Kanana-1.5-8B": 5,
+   "Gemma-3-1B": 6,
+   "Kanana-1.5-2.1B": 7,
+   "Midm-2.0-Mini": 8,
+   "Qwen3-1.7B": 9
+  },
+  "인용 정확도": {
+   "Qwen3-8B": 1,
+   "Gemma-3-4B": 2,
+   "Kanana-1.5-2.1B": 3,
+   "Qwen3-1.7B": 4,
+   "Qwen3-4B": 5,
+   "Llama-3.1-8B": 6,
+   "Kanana-1.5-8B": 7,
+   "Midm-2.0-Mini": 8,
+   "Gemma-3-1B": 9
+  },
+  "응답 시간": {
+   "Midm-2.0-Mini": 1,
+   "Gemma-3-1B": 2,
+   "Qwen3-1.7B": 3,
+   "Gemma-3-4B": 4,
+   "Kanana-1.5-2.1B": 5,
+   "Qwen3-4B": 6,
+   "Llama-3.1-8B": 7,
+   "Qwen3-8B": 8,
+   "Kanana-1.5-8B": 9
+  }
+ },
+ "quality_firsts": {
+  "Qwen3-1.7B": 0,
+  "Qwen3-8B": 3,
+  "Gemma-3-4B": 0,
+  "Midm-2.0-Mini": 0,
+  "Qwen3-4B": 0,
+  "Llama-3.1-8B": 0,
+  "Gemma-3-1B": 0,
+  "Kanana-1.5-8B": 0,
+  "Kanana-1.5-2.1B": 0
+ },
+ "weighted_score_reference": {
+  "Qwen3-1.7B": 40.2,
+  "Qwen3-8B": 89.0,
+  "Gemma-3-4B": 71.7,
+  "Midm-2.0-Mini": 39.4,
+  "Qwen3-4B": 73.1,
+  "Llama-3.1-8B": 72.6,
+  "Gemma-3-1B": 27.2,
+  "Kanana-1.5-8B": 56.8,
+  "Kanana-1.5-2.1B": 56.6
+ },
+ "sensitivity_top1_pct": {
+  "Qwen3-1.7B": 0.0,
+  "Qwen3-8B": 56.4,
+  "Gemma-3-4B": 41.6,
+  "Midm-2.0-Mini": 0.0,
+  "Qwen3-4B": 2.0,
+  "Llama-3.1-8B": 0.0,
+  "Gemma-3-1B": 0.0,
+  "Kanana-1.5-8B": 0.0,
+  "Kanana-1.5-2.1B": 0.0
+ },
+ "order": [
+  "Qwen3-8B",
+  "Qwen3-4B",
+  "Llama-3.1-8B",
+  "Gemma-3-4B",
+  "Kanana-1.5-8B",
+  "Kanana-1.5-2.1B",
+  "Qwen3-1.7B",
+  "Midm-2.0-Mini",
+  "Gemma-3-1B"
+ ]
+}

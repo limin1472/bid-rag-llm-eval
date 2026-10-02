@@ -1,0 +1,24 @@
+{
+ "settings": {
+  "profile": "cpu-lowmem-v2",
+  "ctx": 4096,
+  "kv_cache": "q8_0",
+  "threads": 8,
+  "flash_attn": true,
+  "batch": 128,
+  "ubatch": 32,
+  "metric": "peak RSS (VmHWM)"
+ },
+ "peak_rss_gb": {
+  "Llama-3.1-8B": 8.19,
+  "Midm-2.0-Mini": 2.88,
+  "Qwen3-1.7B": 2.25,
+  "Qwen3-14B": 14.81,
+  "Qwen3-4B": 4.46,
+  "Qwen3-8B": 8.28,
+  "Gemma-3-1B": 1.04,
+  "Gemma-3-4B": 4.06,
+  "Kanana-1.5-2.1B": 2.6,
+  "Kanana-1.5-8B": 8.16
+ }
+}

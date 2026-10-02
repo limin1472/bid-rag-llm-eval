@@ -1,0 +1,83 @@
+{
+ "schema": "frozen-inputs/p5",
+ "prompt_id": "P5",
+ "axes": {
+  "length": "long",
+  "order": "format_first",
+  "style": "numbered+role"
+ },
+ "created_utc": "2026-09-17T01:28:29.792680+00:00",
+ "source_file": "questions_300.jsonl",
+ "source_file_sha256": "7b318a028e99b6af8b7de2c5f5e5dfb0c6984fda8611ec75e3ab1715b5cd5434",
+ "question_count": 300,
+ "generation_target_count": 295,
+ "blocked_by_acl": [
+  "Q300-C01-S04",
+  "Q300-C02-S04",
+  "Q300-C03-S04",
+  "Q300-C04-S04",
+  "Q300-C05-S04"
+ ],
+ "excluded_fields": {
+  "answer_side": [
+   "expected_answer",
+   "expected_action",
+   "expected_status",
+   "expected_overall_eligibility",
+   "reasoning",
+   "calculation",
+   "must_include",
+   "must_not_claim",
+   "review",
+   "hallucination_spans",
+   "unresolved_issues",
+   "assumptions",
+   "actual_answer"
+  ],
+  "restricted": [
+   "private_audit_evidence"
+  ],
+  "eval_metadata": [
+   "difficulty",
+   "split",
+   "source_nature",
+   "category",
+   "condition_scope",
+   "evidence_kinds",
+   "master_pointers",
+   "scenario_pointers",
+   "scenario_evidence_ids",
+   "synthetic_evidence_ids",
+   "rag_ingest",
+   "response_requirements"
+  ],
+  "excluded_not_leak_tested": [
+   "answer_evidence_excerpt"
+  ]
+ },
+ "system_template_sha256": "ddcc3b4df072e622d815e5f22fc1c80e130f42ff4c941b7567ab9484c54233bc",
+ "user_template_sha256": "74caed3f3a0dddc087b0b5b9580ce69f190c67bcd7bd14385944ef93435fac41",
+ "leak_check": {
+  "violations": 0,
+  "detail": []
+ },
+ "common_settings": {
+  "quantization": "Q4_K_M",
+  "context": 24576,
+  "max_output_tokens": 512,
+  "temperature": 0,
+  "seed": 1234,
+  "runtime": "llama.cpp",
+  "build_commit": "0bec16e3880a148a7fc3887cdf71f81c547aff7a"
+ },
+ "stats": {
+  "evidence_chars_total": 384782,
+  "prompt_chars_max": 20472,
+  "prompt_chars_median": 1493,
+  "max_prompt_question_id": "Q300-C05-S02"
+ },
+ "output_file": "frozen_P5.jsonl",
+ "output_file_sha256": "ca43c692542f8a00c58297624f83cbb5bad7e1b483fcbb1d0d1b42ba707cc000",
+ "note": "식별자 익명화 및 담당자 연락처·실명 마스킹 후 재계산한 해시",
+ "aggregate_context_sha256": "2f089439e312c38393d25ea73e9202b667ecb3fb86071f1a82dadf382dee785e"
+}
